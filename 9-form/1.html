@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Enquiry form</legend>
+        <div>
+            <label for="">Name</label>
+            <input type="text" required placeholder="enter your name" name="uname">
+        </div>
+        <div>
+            <label for="">Gender</label>
+            <input type="radio" name="Gender" value="male" required>male
+            <input type="radio" name="Gender" value="Female" required>Female
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="email" required placeholder="Enter your email" name="uemail">
+        </div>
+        <div>
+            <label for="">Phone</label>
+            <input type="tel" pattern="[0-9]{10}" placeholder="enter the number">
+        </div>
+        <div>
+            <label for="">Country</label>
+            <select>
+                <option>AK</option>
+                <option>BK</option>
+                <option>CK</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Country</label>
+            <select>
+                <option>AK</option>
+                    <optgroup label="value">
+                        <option>ray</option>
+                        <option>way</option>
+                    </optgroup>
+                <option>BK</option>
+                <option>CK</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Message</label>
+            <textarea></textarea>
+        </div>
+        <div>
+            <label></label>
+        </div>
+        </fieldset>
+    </form>
+</body>
+</html>
